@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Seguro para el automovil, casa, o artefactos electronicos">
+    <meta name="keywords" content="['Seguros','precios bajos','seguro para autos','seguros economicos']">
+    <title>Seguro No Pago</title>
+    <link rel="stylesheet" href="diseño.css">
+    
+</head>
+<body>
+    <div class="titulo">
+    <h1>Seguro No Pago</h1>
+    </div>
+    <div class="descripcion">
+    <p>El <strong> mejor seguro a la mejor cotizacion</strong> para cada artefacto de tu casa, tu casa y tu automovil,
+    no olvides pedir cotizacion y un acesor se comunicara contigo</p>
+     </div>
+    <H4>Complete los campos para que un acesor se comunique contigo:</H4>
+    
+    <main>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Ingrese su nombre" required>
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido"
+                placeholder="Ingrese su apellido" required>
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="email"
+                placeholder="Ingrese su email" required>
+            </div>
+            <div>
+                <label for="Telefono">telefono</label>
+                <input type="tel" id="telefono" name="telefono"
+                placeholder="Ingrese su telefono" required>
+            </div>
+            
+            <div> 
+                 <label for="TipoSeguro">Tipo De Seguro</label>
+                 <select id="tiposeguro" name="tiposeguro">
+                    <option value="" disabled selected>Seleccionar plan</option>
+                         <option value="basico">Basico</option>
+                         <option value="intermedio">intermedio</option>
+                         <option value="premium">premium</option>
+                 </select>
+        
+            </div>
+            
+
+        </form>
+        <div>
+        <button class="Enviar" id="Enviar" type="submit">Enviar</button>
+        </div>
+        <div>
+            <p class="message" id="message">El precio estimado es:</p>
+        </div>
+
+
+
+
+
+
+
+    </main>
+      
+<script src="index.js"></script>
+</body>
+
+</html>

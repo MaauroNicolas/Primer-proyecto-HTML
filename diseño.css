@@ -1,0 +1,22 @@
+
+.titulo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    ;
+    color: aliceblue;
+   
+}
+
+.Enviar {
+    color: rgb(51, 51, 51);
+    background-color: rgba(90, 179, 0, 0.86);
+    font-size: 15px
+    
+    
+}
+body{
+    background-image: url(imagine/seguro.jpeg)
+    
+    background-size cover;
+
+}
